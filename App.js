@@ -17,6 +17,8 @@ const App = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [modalVisible, setModalVisible] = useState(false);
+  const [saket, setSaket] = useState([]);
+
 
   const handleSaveNote = () => {
     if (selectedNote) {
